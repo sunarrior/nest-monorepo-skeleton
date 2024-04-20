@@ -1,0 +1,4 @@
+npx prettier --write .
+nx format
+npx lint-staged --relative
+nx test --passWithNoTests

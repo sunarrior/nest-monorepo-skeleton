@@ -8,6 +8,10 @@
     "test": "nx test",
     "prepare": "node .husky/install.mjs"
   },
+  "engines": {
+    "npm": "10.5.0",
+    "node": "18.20.2"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
